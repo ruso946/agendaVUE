@@ -9,3 +9,12 @@
     color:yellow;
     padding:20px;
 }
+
+table, th, td {
+    border: 1px solid;
+    width: 50%;
+    text-align: left;
+    padding: 15px;
+  }
+
+tr:hover {background-color: coral;}
