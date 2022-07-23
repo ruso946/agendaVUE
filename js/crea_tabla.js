@@ -21,6 +21,8 @@ function genera_tabla() {
     row_1.appendChild(heading_3);
     thead.appendChild(row_1);
     console.log(heading_1+heading_2+heading_3);
+    console.log(thead);
+    tabla.appendChild(thead)
     var tblBody = document.createElement("tbody");
   
     // Crea las celdas
@@ -47,8 +49,8 @@ function genera_tabla() {
     tabla.appendChild(tblBody);
     // appends <table> into <body>
     body.appendChild(tabla);
-    // modifica el atributo "border" de la tabla y lo fija a "2";
-    tabla.setAttribute("border", "2");
+    // modifica el atributo "border" de la tabla y lo fija a "3";
+    tabla.setAttribute("border", "3");
 }
 
 function genera_celda(nad, hilera){
