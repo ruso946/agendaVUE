@@ -34,7 +34,7 @@
                     <a class="nav-link" href="#">Modificar</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#" onclick="genera_tabla()">Crea Tabla</a>
+                    <a class="nav-link" href="#" onclick="genera_tabla('padreTablaAgregadaporJs')">Crea Tabla</a>
                   </li>
               </ul>
             </div>
@@ -58,13 +58,13 @@
                             <input type="text" id="dni" name="dni"><br><br>
                             <button type="button" onclick="alert('Atras')">Atras</button>
                             <button type="button" onclick="alert('Adelante')">Adelante</button>
-                            <button type="button" onclick="guardar()">Guardar</button>
+                            <button type="button" onclick="guardar('padreTablaAgregadaporJs')">Guardar</button>
                         </fieldset>
                     </form>
                 </div>
             
                 <!--aside que muestra lista de personas-->
-                <div id="tablaAgregadaporJs" class="col p-1"></div>
+                <div id="padreTablaAgregadaporJs" class="col p-1"></div>
             </div>
         </div>
         <!--footer-->
